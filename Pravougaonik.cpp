@@ -18,7 +18,6 @@ int main(){
     for (int i = 0; i < 4; ++i) {
         cin >> tacke[i].first >> tacke[i].second;
     }
-    sort(tacke.begin(), tacke.end()); // priprema za permutacije
 
     do {
         int x1 = tacke[0].first, y1 = tacke[0].second;
